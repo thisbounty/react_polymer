@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "neutrino start --use neutrino-preset-react",
-    "build": "neutrino build --use neutrino-preset-react"
+    "start": "neutrino start",
+    "build": "neutrino build"
   },
   "devDependencies": {
     "neutrino": "^6.1.4",

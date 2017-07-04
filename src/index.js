@@ -16,6 +16,9 @@ import {
   IronSelector
 } from 'react-polymer/input'
 
+require('./bower_components/webcomponentsjs/webcomponents-lite.js');
+import './bower_components/paper-behaviors/index.html';
+
 reactPolymer.registerEvent('color-picker-selected', 'onColorPickerSelected')
 
 function App () {
